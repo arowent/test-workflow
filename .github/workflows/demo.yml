@@ -2,7 +2,7 @@ name: Test example pipeline on GitHub
 on:
   push:
     branches:
-      - dev
+      - main
 jobs:
   message:
     runs-on: ubuntu-latest
