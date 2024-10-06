@@ -1,0 +1,9 @@
+name: Test example pipeline on GitHub
+on:
+  push:
+    branches:
+      - dev
+jobs:
+  message:
+    runs-on: ubuntu-latest
+    command: "echo Example message from echo command"
