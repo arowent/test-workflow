@@ -8,3 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Example message from echo command"
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Second command"
